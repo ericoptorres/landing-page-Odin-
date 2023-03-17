@@ -80,3 +80,54 @@ button {
     color: white;
 }
 
+
+.main-content {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+li {
+    width: 100px;
+}
+
+.square-box {
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+.looks-nice {
+    background-color: #a0a4a9;
+    padding: 40px 100px;
+    flex: 1;
+}
+
+.push-right {
+    text-align: end;
+    font-weight: bold;
+}
+
+.newsletter {
+    background-color: rgb(0, 81, 255);
+    color: white;
+    padding: 20px 50px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #1F2937;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
